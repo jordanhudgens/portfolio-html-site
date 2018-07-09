@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+}
