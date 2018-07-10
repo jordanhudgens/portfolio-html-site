@@ -19,3 +19,12 @@ body {
 .nav-wrapper > .left-side > div {
   margin-right: 20px;
 }
+
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper img {
+  width: 100%;
+}
