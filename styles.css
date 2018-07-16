@@ -82,3 +82,12 @@ body {
   padding-left: 100px;
   padding-right: 100px;
 }
+
+.img-text-wrapper .title {
+  font-size: 2em;
+  color: white;
+}
+
+.img-text-wrapper .subtitle {
+  color: lightseagreen;
+}
