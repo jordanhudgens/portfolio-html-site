@@ -59,6 +59,11 @@ body {
 
 .portfolio-item-wrapper {
   position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
 }
 
 .portfolio-item-wrapper img {
