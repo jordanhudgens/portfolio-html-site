@@ -94,8 +94,10 @@ body {
 
 .img-text-wrapper:hover .subtitle {
   color: lightseagreen;
+  font-weight: 600;
 }
 
 .logo-wrapper img {
   width: 50%;
+  margin-bottom: 20px;
 }
