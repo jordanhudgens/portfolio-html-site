@@ -59,14 +59,13 @@ body {
 
 .portfolio-item-wrapper {
   position: relative;
+}
+
+.portfolio-img-background {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 350px;
-  width: 100%;
-}
-
-.portfolio-item-wrapper img {
   width: 100%;
 }
 
@@ -83,11 +82,20 @@ body {
   padding-right: 100px;
 }
 
-.img-text-wrapper .title {
-  font-size: 2em;
-  color: white;
+.img-text-wrapper .subtitle {
+  transition: 1s;
+  color: transparent;
 }
 
-.img-text-wrapper .subtitle {
+.image-blur {
+  transition: 1s;
+  filter: brightness(10%);
+}
+
+.img-text-wrapper:hover .subtitle {
   color: lightseagreen;
+}
+
+.logo-wrapper img {
+  width: 50%;
 }
